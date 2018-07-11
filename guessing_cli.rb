@@ -6,10 +6,10 @@ def run_guessing_game
     computer_guess = rand 1..6
     if guess.to_i != computer_guess
       puts "The computer guessed #{computer_guess}."
-      break
+      
     elsif guess.to_i == computer_guess
       puts "You guessed the correct number!"
-      break
+      
     
     end
   end
